@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <Button
+        android:id="@+id/button_scan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:text="连接设备"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/mainled1guanbi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/mainled1dakai"
+        android:layout_alignBottom="@+id/mainled1dakai"
+        android:layout_alignParentRight="true"
+        android:text="关灯"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/mainled1dakai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="110dp"
+        android:text="开灯"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/shoudongbtn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/zidongbtn1"
+        android:layout_alignBottom="@+id/zidongbtn1"
+        android:layout_alignParentRight="true"
+        android:text="手动模式"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/shoudongbtn1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:text="智能模式切换"
+        android:textColor="#000000"
+        android:textSize="35sp" />
+
+    <Button
+        android:id="@+id/zidongbtn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView1"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="135dp"
+        android:text="自动模式"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/mainled1guanbi"
+        android:layout_centerHorizontal="true"
+        android:text="手动控制"
+        android:textColor="#000000"
+        android:textSize="35sp" />
+
+    <ToggleButton
+        android:id="@+id/TbnBt"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_weight="0.4"
+
+        android:textOff="蓝牙关闭  "
+        android:textOn="蓝牙开启  "
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="语音控制" />
+
+    <EditText
+
+        android:id="@+id/et_content"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="0dp"
+
+        android:layout_marginLeft="100dp"
+
+        android:layout_marginTop="500dp"
+        android:layout_weight="1"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="蓝牙智能台灯设计"
+        android:textColor="#000000"
+        android:textSize="35sp" />
+
+</RelativeLayout>
